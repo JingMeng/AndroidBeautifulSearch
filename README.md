@@ -1,4 +1,5 @@
-# DribSearch
+#AndroidBeautifulSearch
+##转载自原文 DribSearch
 android search to line anim
 
 dribbble 上有许多创意的效果 这个控件的效果就是dribble上的一个实现 地址在[这里][3]
