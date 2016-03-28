@@ -21,6 +21,8 @@ avi转gif 质量不是很好， 凑合着看吧
     app:search_color="#fff"/>
     
     
+
+
     
 dribSearchView = (DribSearchView) findViewById(R.id.dribSearchView);
 
