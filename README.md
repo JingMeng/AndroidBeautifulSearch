@@ -6,12 +6,8 @@ gist之前也有人贴出android 5.0的实现方式，解析矢量图然后通�
 当然5.0以下肯定也是可以的， 这个控件就是在2.3+ 的实现方式
 效果图：
 ![效果图][1]
-
-
-
 avi转gif 质量不是很好， 凑合着看吧
 使用：
-
 ```
 <org.liuyichen.dribsearch.DribSearchView
     android:id="@+id/dribSearchView"
