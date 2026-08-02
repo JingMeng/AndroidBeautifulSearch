@@ -1,24 +1,31 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.0"
+    namespace 'org.liuyichen.dribsearch'
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 22
+        minSdk 14
+        targetSdk 34
         versionCode 1
         versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    
     }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.nineoldandroids:library:2.4.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.nineoldandroids:library:2.4.0'
 }
+
+

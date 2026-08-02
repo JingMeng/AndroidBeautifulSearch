@@ -2,8 +2,8 @@ package org.liuyichen.dribsearch.sample;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,7 +17,7 @@ import static org.liuyichen.dribsearch.DribSearchView.OnChangeListener;
 import static org.liuyichen.dribsearch.DribSearchView.State;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     DribSearchView dribSearchView;
     private MaterialMenuDrawable materialMenu;
@@ -88,3 +88,4 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
